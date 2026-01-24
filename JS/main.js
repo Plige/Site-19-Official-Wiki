@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Navbar active link
 document.querySelectorAll(".nav-link").forEach(link => {
-    const currentUrl = window.location.href.split('#')[0];
-    const linkUrl = link.href.split('#')[0];
+    const currentUrl = window.location.href.split("#")[0];
+    const linkUrl = link.href.split("#")[0];
     if(linkUrl === currentUrl){
         link.setAttribute("aria-current", "page");
     }
